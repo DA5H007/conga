@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cc8e35;
+    font-family: 'Dancing Script', cursive; 
+    text-align: center;   
+}
+
+h1 {
+    color: white;
+    font-size: 7rem;
+    margin: 0 0 5rem 0;
+}
+
+button {
+    background-color: #cd6133;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    height: 12rem;
+    margin: 2%;
+    width: 12rem;
+    outline: none;
+}
+
+.pressed {
+    opacity: 40%;
+    background-color: #34ace0;
+}
